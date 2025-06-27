@@ -20,7 +20,6 @@ p2 = norm.cdf(z2)
 print(f"1. P(preço < $200) para 1 monitor = {p1:.4f} ({p1*100:.2f}%)")
 print(f"2. P(média < $200) para 10 monitores = {p2:.4f} ({p2*100:.2f}%)")
 
-# Comparação
 print("\nComparação:")
 if p2 > p1:
     print("A probabilidade da média ser menor que $200 é MAIOR do que para um único monitor.")
